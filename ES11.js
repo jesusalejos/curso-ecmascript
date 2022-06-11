@@ -25,8 +25,11 @@ console.log(window);
 console.log(globalThis);
 
 
-const fooo = 'asd' ?? 'default string';
+const fooo = null ?? 'default string';
 console.log(fooo);
+
+const fooo2 = 'not null' ?? 'default string';
+console.log(fooo2)
 
 
 
